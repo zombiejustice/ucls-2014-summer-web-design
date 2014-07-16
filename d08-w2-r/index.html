@@ -1,0 +1,81 @@
+<html>
+<!-- this is a comment, not visible on the page. This document is Mr. H's homepage for Wednesday of Week 2. -->
+<head>
+<title>Mr. H's Homepage</title>
+<link type='text/css' rel='stylesheet' href='home.css' />
+</head>
+<body>
+<h1>Mr. H's Homepage</h1>
+<p>Mr. H likes making dinosaur noises and teaching people about web design. Mr. H dislikes volcanos and people wearing headphones in class. Actually, he dislikes rudeness in general, not just the headphone thing. And nothing is more rude than a volcano.</p>
+<img src='mrh-home.jpg' />
+
+
+<ol id='assignment'>
+<li>Our fourth assignment will be to make a fairytale webpage. Choose one of the fairytales below.</p>
+<li>Control-click and choose "Save Link as..." to download it.
+<p class='hyperlink'><a href='fairytales/threelittlepigs.html'>The Three Little Pigs</a></p>
+<p class='hyperlink'><a href='fairytales/beautyandbeast.html'>Beauty and the Beast</a></p></li>
+<li>Add images relating to the story at various points. Mr. H expects at least two!</li>
+<li>Style your page pleasantly and add internal navigation. Use an ordered list!</li>
+<li>Float your images and add appropriate margins!</li>
+<li>Mr. H has made an example page. To look at how he did it, go to View -> Page Source.
+<p class='hyperlink'><a href='fairytales/fairytale-example.html'>Mr. H's Example</a></p></li>
+</ol>
+
+
+
+<p>Mr. H and Maddie are here to teach you web design, but if you have a question, remember to first ask a neighbor, and then try looking it up on w3schools, before raising your hand. Some of the things we've learned so far are:</p>
+<h2>From Second Week Tuesday:</h2>
+<p>&lt;ul&gt; will make an unordered list.</p>
+<p>&lt;li&gt; will make a single item inside a list.</p>
+<p>&lt;a href='#NAME'&gt; will make a link to a specific point on a page; the point it will link to is the element with the id of NAME.</p>
+<p>You can use tools to pull colors from an image:</p>
+<p class='hyperlink'><a href='http://bighugelabs.com/colors.php'>Big Huge Palette Generator</a></p>
+
+<h2>From Second Week Monday:</h2>
+<p>&lt;TAG class='CLASSNAME'&gt; is how you add a class to an element. Just like an ID! But different. TAG can be any element name.</p>
+<p>TAG.CLASSNAME { } is how you select the class to style it in CSS.</p>
+<p>{ font-size: NUMpt; } or { font-size: NUMem } This CSS property allows you to change the size of fonts with either points or ems, which are relative to the normal font size. Example: 2em is twice as big as normal.</p>
+<p>{ font-weight: bold; } This CSS property can be used to make the text in elements bolded, or bolded text normal.</p>
+<p>{ font-style: italic; } This CSS property can be used to make the text in an element italicised, or italicised text normal.</p>
+<p>{ text-decoration: underline; } This CSS property can be used to make text be underlined, overlined, struck-through, or none of the above. Try { text-decoration: none; } to get rid of underlines on hyperlinks, for example.</p>
+
+<h2>From First Week Friday:</h2>
+<p>&lt;a href='FILENAME.html'&gt;LINKTEXT&lt;/a&gt; defines a hyperlink to another page on your website. Replace "FILENAME.html" with the page to which you want to link. Replace "LINKTEXT" with what you want as the clickable text of the link.</p>
+<p>&lt;a href='http://ADDRESS'&gt;LINKTEXT&lt;/a&gt; defines a hyperlink to a page not on your own website. Just like above, but you replace "ADDRESS" with the URL (that is, the internet address) of the site you want.</p>
+<p>a:link { } will style un-clicked hyperlinks.</p>
+<p>a:visited { } will style previously clicked hyperlinks.</p>
+<p>a:hover { } will style hyperlinks with the mouse over them.</p>
+<p>a:active { } will style links as they are clicked on.</p>
+
+<h2>From First Week Thursday:</h2>
+<p>&lt;div&gt; defines a div, which is an invisible box used to group other elements together for structure and styling.</p>
+<p>&lt;TAG id='NAME'&gt; is how you give an element an ID. There cannot be two or more elements with the same ID! We will use the ID to style the element individually. "TAG" can be replaced with any element's tag, and "NAME" can be anything you want (just no spaces, and it shouldn't start with a number).</p>
+<p>#NAME { CSS } This is how we style an ID. The element with the ID of "NAME" will have all the stylings inside the curly braces.</p>
+
+<h2>From First Week Wednesday:</h2>
+<p>To connect to the server from the lab, click on the smiley face to select Finder, then open the 'Go' menu and click on 'Connect to Server...'. Enter our MAGIC MYSTERY NUMBER and then, when asked, your username and password. Remember: Everything in your Sites folder is online, everything outside it is not.</p>
+<p>&lt;img src='FILENAME.jpg' />&gt; defines an image on the page. Like the link element, img does not close in a separate tag. Replace "FILENAME.jpg" with the picture you want to use. Make sure it's in the right folder!</p>
+<p>{ display: block; } This CSS property can be used to display an image as a block. Combine this with automatic margins to center an image.</p>
+<p>{ text-align: center; } This is the CSS property for centering text. Do NOT use it to center an image; use the previous property instead.</p>
+<p>{ width: SIZEpx; } This CSS property sets the width of block elements such as paragraphs and headlines.</p>
+<p>{ border: SIZEpx, STYLE, COLOR; } This CSS property gives block elements a border. SIZE should be a number specified in pixels. STYLE will be the style of the border, such as solid. COLOR will be a color hex code, the color of the border.</p>
+<p>{ padding: SIZEpx; } This property will put SIZE pixels between the edge or border of a block element and the text or content.</p>
+<p>{ margin: SIZEpx; } This property will put SIZE pixels between the edge or border of a block element and other elements.</p>
+
+
+<h2>From First Week Tuesday:</h2>
+<p>&lt;head&gt; defines the header part of the page, which is not seen directly by users of the webpage. It should begin right after &lt;html&gt; and end with &lt;/head&gt; right before &lt;body&gt;</p>
+<p>&lt;title&gt; defines the title of the page, which is not the same as the headline. The title will be displayed at the top of the browser window! Close it with &lt;/title&gt;</p>
+<p>&lt;link type='text/css' rel='stylesheet' href='FILENAME.css' /&gt; is the link element. We'll use it to link a stylesheet to our webpage. This is the first element we've learned that doesn't have a separate closing tag; that's why the tag has a slash at the end of it. Replace "FILENAME.css" with the name of your own css file.</p>
+<p>{ background-color: #HEXHEX; } This is CSS, and belongs in our stylesheet (our .css file). This property will change the color of the background. Replace "HEXHEX" with the color code of your choice!</p>
+<p>{ color: #HEXHEX; } This is another CSS property, which sets the color of the foreground, including text color. Replace "HEXHEX" with the color code of your choice.</p>
+<p>{ font-family: "FONT1", "FONT2", FAMILY; } This CSS property sets the font to use. If the browser can't fint FONT1, it will look for FONT2, and so on down the list. The list should always end with one of the five font families: sans-serif, serif, monospace, cursive, or fantasy. There is always a default font for each of these families.</p> 
+
+<h2>From First Week Monday:</h2>
+<p>&lt;html&gt; defines the entirity of the webpage. We end the webpage with &lt;/html&gt;</p>
+<p>&lt;body&gt; defines the part of the webpage that other people (not webmasters like us) can see. We close the body with &lt;/body&gt; right before &lt;/html&gt;</p>
+<p>&lt;h1&gt; defines the most important headline. &lt;h2&gt;, &lt;h3&gt;, and &lt;h4&gt; can also be used. We can have as many of each as we want. Don't forget to close them!</p>
+<p>&lt;p&gt; defines a paragraph of text, just like this one. We'll probably use these a lot!</p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+	background-color: #336633;
+	font-family: 'Garamond', 'Georgia', serif;
+	color: #ccffcc;
+	width: 600px;
+	margin: 0 auto;
+	border-left: 15px double #ffffcc;
+	border-right: 15px double #ffffcc;
+	padding: 10px;
+	}
+
+h1, h2 {
+	font-family: 'Kokonor', 'Herculanum', fantasy;
+	text-align: center;
+	}
+
+a:link, a:visited {
+	color: #ccffff;
+	text-decoration: none;
+	}
+a:hover, a:active {
+	color: #ffffff;
+	}
+	
+img.left {
+	width: 280px;
+	border: 5px solid #ccffff;
+	float: left;
+	margin: 5px 10px 5px 0;
+	}
+
+img.right {
+	width: 300px;
+	border: 5px solid #ccffff;
+	float: right;
+	margin: 5px 0 5px 10px;
+	}
+	
+div {
+	border-top: 5px solid #ffffcc;
+	padding: 10px 0;
+	clear: both;
+	}
+	
+ol#sources {
+	list-style-type: circle;
+	border-top: 5px solid #ffffcc;
+	clear: both;
+	}
+	
+	

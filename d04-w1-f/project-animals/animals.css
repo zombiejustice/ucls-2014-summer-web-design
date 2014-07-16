@@ -1,0 +1,27 @@
+body {
+	background-color: #ffffcc;
+	width: 600px;
+	border-left: 30px double #999999;
+	border-right: 30px double #999999;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+img {
+	width: 580px;
+	border: 10px solid #999999;
+}
+
+h1 {
+	font-family: "Gaslamp", "Garamond", serif;
+}
+
+h2 {
+	border-top: 5px dotted #999999;
+	margin: 10px 30px;
+	font-family: "Gaslamp", "Garamond", serif;
+	}
+
+p {
+	font-family: "Hope", "Helvetica", serif;
+}

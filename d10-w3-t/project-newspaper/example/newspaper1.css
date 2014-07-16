@@ -1,0 +1,141 @@
+@font-face {
+	font-family: 'Teacup';
+	src: url('Teacup-Tall-12x15.ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('newspaper_collage.jpg');
+	background-attachment: fixed;
+}
+
+#newspaper {
+
+	width: 800px;
+	padding: 0;
+	margin: auto;
+	font-family: "Lucida Console", sans-serif;
+	
+}
+
+header {
+	background-color: #ffcccc;
+	text-align: center;
+	padding: 10px;
+	height: 150px;
+	width: 760px;
+	border: 10px solid #cc6666;
+	border-bottom: none;
+	border-radius: 40px 40px 0 0;
+	position: fixed;
+	top: 10px;
+	z-index: 1;
+}
+
+article {
+	margin-top: 250px;
+	background-color: #ffffcc;
+	padding: 10px;
+	-webkit-column-count: 4;
+	-webkit-column-gap: 25px;
+	-webkit-column-rule: 5px solid #cccc66;
+	border-left: 10px solid #cccc66;
+	border-right: 10px solid #cccc66;
+	text-align: justify;
+}
+
+footer {
+
+	background-color: #ccccff;
+	padding: 10px 20px;
+	border: 10px solid #6666cc;
+	border-top: none;
+	margin-bottom: 10px;
+	border-radius: 0 0 40px 40px;
+}
+
+nav {
+	background-color: #ccffcc;
+	padding: 10px;
+	border-left: 10px solid #66cc66;
+	border-right: 10px solid #66cc66;
+	position: fixed;
+	top: 180px;
+	z-index: 1;
+	height: 50px;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+
+}
+
+nav li {
+	background-color: #66cc66;
+	display: inline-block;
+	margin: 5px;
+	width: 134px;
+}
+
+nav li#current {
+	background-color: #669966;
+	color: #ffffcc;
+}
+
+nav a:link, nav a:visited {
+	text-decoration: none;
+	color: #ffffcc;
+	display: block;
+	padding: 5px;
+}
+
+nav a:active {
+	color: #6666ff;
+}
+
+nav li:hover {
+	background-color: #ffffcc;
+}
+
+nav li:hover a:link, nav li:hover a:visited {
+	color: #66cc66;
+}
+
+nav li#current:hover a:link, nav li#current:hover a:visited {
+	color: #ffffcc;
+}
+
+
+header h1 {
+	margin: 40px;
+	font-family: 'Teacup', monospace;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Courier', monospace;
+}
+
+article h3 {
+	font-family: 'Teacup', monospace;
+	font-size: 2em;
+	padding-bottom: 10px;
+	border-bottom: 5px solid #cccc66;
+	margin: 10px;
+	text-align: center;
+	-webkit-column-span: all;
+}
+
+article h4 {
+	font-size: 1em;
+	margin-top: 0;
+}
+
+footer h2 {
+	font-family: 'Courier', monospace;
+	font-size: 1em;
+	font-weight: normal;
+}
+

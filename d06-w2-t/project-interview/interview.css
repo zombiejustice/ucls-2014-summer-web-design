@@ -1,0 +1,28 @@
+body {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #012345;
+}
+
+h1 {
+	margin: 10px auto;
+	width: 410px;
+	color: #012345;
+	background-color: #cccccc;
+	border: 15px double #012345;
+	padding: 10px;
+}
+
+.q {
+	font-style: italic;
+	color: #ccff66;
+	font-family: monospace;
+	border-top: 5px dotted #cccccc;
+	padding: 10px;
+}
+
+.a {
+	color: #cccccc;
+	font-family: 'Helvetica', sans-serif;
+}

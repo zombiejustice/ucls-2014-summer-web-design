@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'Teacup';
+	src: url('Teacup-Tall-12x15.ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('newspaper_collage.jpg');
+}
+
+#newspaper {
+
+	width: 800px;
+	padding: 0;
+	margin: auto;
+	font-family: "Lucida Console", sans-serif;
+	
+}
+
+header {
+	background-color: #ffcccc;
+	text-align: center;
+	float: left;
+	width: 320px;
+	padding: 10px;
+	opacity: 0.85;
+	margin-top: 10px;
+	border-top-left-radius: 40px;
+	border-top: 20px solid #cc6666;
+	border-left: 20px solid #cc6666;
+}
+
+article {
+	margin-top: 10px;
+	background-color: #ffffcc;
+	padding: 10px;
+	width: 400px;
+	float: right;
+	border-radius: 0 40px 40px 40px;
+	border-top: 20px solid #cccc66;
+	border-right: 20px solid #cccc66;
+	border-bottom: 20px solid #cccc66;
+	margin-bottom: 10px;
+}
+
+footer {
+
+	background-color: #ccccff;
+	padding: 10px 20px;
+	margin-right: 440px;
+	clear: left;
+	opacity: 0.85;
+	border-bottom-left-radius: 40px;
+	border-left: 20px solid #6666cc;
+	border-bottom: 20px solid #6666cc;
+}
+
+nav {
+	background-color: #ccffcc;
+	padding: 10px;
+	clear: left;
+	opacity: 0.85;
+	margin-right: 440px;
+	border-left: 20px solid #66cc66;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	margin: 5px;
+	background-color: #66cc66;
+	text-align: right;
+}
+
+nav a:link, nav a:visited {
+	display: block;
+	padding: 5px 5px 5px 35px;
+	text-decoration: none;
+	color: #ffffcc;
+}
+
+nav li#current a:link, nav li#current a:visited{
+	padding: 5px;
+	border-left: 30px solid #339933;
+}
+
+nav a:active {
+	color: #6666ff;
+}
+
+nav li:hover {
+	background-color: #ffffcc;
+}
+
+nav li:hover a:link, nav li:hover a:visited {
+	color: #66cc66;
+	padding: 5px;
+	border-left: 30px solid #339933;
+	
+}
+
+header h1 {
+	font-family: 'Teacup', monospace;
+	font-size: 4em;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: 'Courier', monospace;
+}
+
+article h3 {
+
+	font-family: 'Teacup', monospace;
+	font-size: 2em;
+}
+
+article h4 {
+	font-size: 1em;
+}
+
+footer h2 {
+	font-family: 'Courier', monospace;
+	font-size: 1em;
+	font-weight: normal;
+}
+

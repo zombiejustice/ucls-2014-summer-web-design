@@ -1,0 +1,47 @@
+#navlist {
+	border: 5px solid #ffffff;
+	background-color: #000000;
+	padding: 10px;
+	line-height: 2em;
+	font-family: 'Monaco', monospace;
+	width: 570px;
+}
+
+#navlist li {
+	list-style-type: square;
+	list-style-position: inside;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#navlist a:link {
+	color: #ccffff;
+	background-color: #000000;
+	border: 1px solid #ccffff;
+	padding: 1px 3px;
+	margin: 0;
+}
+
+#navlist a:visited {
+	color: #ccffff;
+	background-color: #000000;
+	border: 1px solid #ccffff;
+	padding: 1px 3px;
+	margin: 0;
+}
+
+#navlist a:hover {
+	color: #000000;
+	background-color: #ccffff;
+	padding: 1px 3px;
+	margin: 0;
+}
+
+#navlist a:active {
+	color: #000000;
+	background-color: #ccffff;
+	padding: 1px 3px;
+	margin: 0;
+}
+
